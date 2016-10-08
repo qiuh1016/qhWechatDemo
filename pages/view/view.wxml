@@ -1,0 +1,14 @@
+<view class="page">
+
+    <!--<view class="parent-view">-->
+        <view class="view1"></view>
+        <view class="flex" style="flex-direction:row">
+            <view class="flex-item1"></view>
+            <view class="flex-item2"></view>
+        </view>
+    <!--</view>-->
+    
+
+    <!--<view style="background: pink; height: 100px; width: 50%"> block </view>-->
+
+</view>

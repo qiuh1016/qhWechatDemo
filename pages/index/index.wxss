@@ -1,0 +1,58 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 100px;
+}
+
+.wx-label {
+  color: gray;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+
+.heading_text{
+  font-size: 20px;
+  color: black;
+}
+
+.checkbox {
+  color: green;
+  text-shadow: gray;
+  font-size: 16px;
+}
+
+.input{
+  background-color: #FFFFFF;
+  font-size: 15px;
+  border-width: 1px;
+  border-color: red;
+
+
+}
+
+
+/** wxss **/
+/** 修改button默认的点击态样式类**/
+.button-hover {
+  background-color: red;
+}
+/** 添加自定义button点击态样式类**/
+.other-button-hover {
+  background-color: blur;
+}

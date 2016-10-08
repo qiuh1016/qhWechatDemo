@@ -1,0 +1,39 @@
+html,body{
+    height: 100%;
+    width: 100%;
+} 
+
+.parent-view {
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.view1 {
+    height: 40%;
+    width: 30%;
+    background-color: red;
+    margin-left: 35%;
+    margin-top:10%;
+}
+
+.flex {
+    height: 40%;
+    display: flex;
+    margin-top:10%;
+}
+
+.flex-item1 {
+    height: 100%;
+    width: 30%;
+    background-color:green;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.flex-item2 {
+    height: 100%;
+    width: 30%;
+    background-color:blue;
+    margin-left: 10%;
+    margin-right: 10%;
+}

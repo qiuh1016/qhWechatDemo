@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<view class="container">
+  <!--<view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>-->
+
+  <loading hidden="{{loadingHidden}}" bindchange="loadingChange">
+    登陆中...
+  </loading>
+
+  <toast hidden="{{toastHidden}}" bindchange="toastChange">
+    登陆成功
+  </toast>
+
+  <view class="page_center">
+    <text class="heading_text">用户登陆</text>
+  </view>
+
+  <view class="page_hd">
+    <view class="section">
+      <view class="wx-label">用户名</view>
+      <input class="input" name="input_name" placeholder="" bindinput="bindUsernameInput" />
+    </view>
+
+    <view class="section">
+      <view class="wx-label">密码</view>
+      <input password class="input" type="text" name="input_psd" bindinput="bindPasswordInput"/>
+    </view>
+
+    <view class="section">
+      <label class="checkbox" > 
+      <checkbox value="rememberPSD" checked="false"/> 记住密码 
+      </label>
+    </view>
+
+    <view class="section">
+    <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+          disabled="{{disabled}}" bindtap="login" hover-class="other-button-hover"> 登陆 </button>
+    </view>
+  </view>
+
+  <view class="usermotto">
+      <text class="user-motto">{{motto}}</text>
+  </view>
+
+ 
+</view>
